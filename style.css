@@ -16,6 +16,9 @@
 .header {
   display: flex;
   justify-content: space-between;
+  width: 95%;
+  margin-left: 60px;
+  align-items: center;
 }
 
 .icon {
@@ -28,11 +31,25 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  gap: 90px;
+  gap: 70px;
+  cursor: pointer;
 }
 
 .navbar li {
   color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.first {
+  border: rgb(255, 123, 0);
+  background: none;
+  padding: 15px 10px;
+}
+
+.first::placeholder {
+  color: white;
+  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
