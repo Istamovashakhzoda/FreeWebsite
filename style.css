@@ -6,10 +6,33 @@
 
 .main {
   width: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%) url(./images/wallpen.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%);
+  background-image: url(./images/black.jpg);
   background-position: center;
   background-size: cover;
-  height: 109vh;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  color: rgb(255, 123, 0);
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+}
+
+.navbar li {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
